@@ -1,0 +1,271 @@
+body{
+    font-family: 'Lobster', cursive;
+    padding: 10px;
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    padding-top: 3%;
+}
+* {
+    box-sizing: border-box;
+  
+}
+ul{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+}
+li{
+    margin-bottom: 5px;
+}
+input{
+    background-color: rgb(105 85 89 / 57%);
+    border: 1px solid rgba(247, 225, 225, 0.63);
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(245, 207, 207);
+    outline:none;
+
+}
+.card{
+    background-color: rgba(79, 71, 87, 0.808);
+    padding: 20px;
+    height:600px;
+    clear: both;
+    
+
+}
+
+#LeftSide{
+    float: left;
+    width: 350px;
+    
+    
+}
+#RightSide{
+    float: left;
+    width: 1100px;
+    margin-left: 20px;
+}
+#NumarIntrari{
+    width: 40%;
+    height: 30px;
+   
+    float: left;
+    display: block;
+    margin-top:15px;
+    
+    
+    
+}
+#NumarIntrariWindow{
+    background-color: rgb(213 189 183 / 77%);
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+
+
+}
+#NumarIntrariText{
+    
+    float: left;
+    display: block;
+    margin:0px;
+    margin-right: 15px;
+    margin-top:15px;
+    margin-left: 15px;
+    font-size: 135%;
+    
+    
+    
+}
+#ListaIntrariWindow{
+
+    background-color: rgb(213 189 183 / 77%);
+    height:88%;
+    width: 100%;
+    padding:20px;
+    overflow-y: scroll;   
+    border-radius: 10px;
+
+}
+#ListaIntrariWindow::-webkit-scrollbar {
+    display: none;
+  }
+.textInputIntrare{
+    float:left;
+    margin:0px;
+    margin-right: 35px;
+    width: 1vw;
+}
+
+.inputNrIntrare{
+    float:left;
+    width: 79px;
+    margin-right: 10px;
+}
+.inputNrIntrareW{
+    width: 79px;
+    
+}
+.select{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#bottomRightChartSide{
+    height: 55%;
+    width: 100%;
+    background-color: rgb(213 189 183 / 77%);
+    border-radius: 10px;
+}
+#topRightSide{
+    height: 42%;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    background-color: rgb(213 189 183 / 77%);
+    border-radius: 10px;
+}
+.topRightSideElements{
+
+    height:90%;
+    width: 25%;
+    border-right: 2px solid rgba(102, 94, 94, 0.404);
+
+}
+#functiaDeIntrareWindow{
+    float: left;
+}
+#functiaDeActivareWindow{
+
+    float:left;
+
+}
+#functiaDeIesireWindow{
+    
+    float:left;
+
+}
+#iesireaWindow{
+    float:left;
+
+
+}
+#functiaDeIntrareInput{
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80%;
+    
+    
+}
+#functiaDeIntrareText{
+    font-size: 150%;
+    display: block;
+    margin-left: 17%;
+    margin-bottom: 20px;
+}
+#functiaDeActivareText{
+    font-size: 150%;
+    display: block;
+    margin-left: 17%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+#functiaDeActivareInput{
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+#functiaDeActivareSelectWindow{
+    
+    margin-bottom: 10px;
+}
+#functiaDeActivareOmegaWindow{
+    margin-left: 63px;
+
+}
+#functiaDeActivareOmegaText{
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-right: 6px;
+}
+#functiaDeActivareOmegaInput{
+    float: left;
+    width: 60%;
+}
+#functiaDeActivareAlfaWindow{
+    
+    margin-left: 70px;
+    margin-right: 10px;
+    clear: both;
+
+}
+#functiaDeActivareAlfaText{
+    float: left;
+    margin-top: 0px;
+    margin-right: 6px;
+}
+#functiaDeActivareAlfaInput{
+    float: left;
+    width: 66%;
+}
+#functiaDeIesireInput{
+    
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 80%;
+
+}
+#functiaDeIesireText{
+    font-size: 150%;
+    display: block;
+    margin-left: 19%;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
+#functiaDeIesireBinarWindow{
+    margin-left: 40px;
+}
+#functiaDeIesireBinarText{
+    float: left;
+    font-size: 150%;
+    margin-top: 0px;
+  
+}
+.onoffswitch{
+    margin-left: 5px;
+    float: left;
+}
+#iesireaText{
+    font-size: 150%;
+    display: block;
+    margin-left: 34%;
+    margin-bottom: 20px;
+    margin-top: 35px;
+
+}
+#iesireaInput{
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+    
